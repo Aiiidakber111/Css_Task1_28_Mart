@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aliceblue;
+    margin-left: 550px;
+    width: 330px;
+    height: 690px;
+    gap: 20px;
+    padding: 40px;
+    
+}
+.container h1{
+   margin-bottom: 10px;
+    text-align: center;
+    
+}
+.container_step{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+}
+.container_span {
+ width: 170px !important;
+font-size: 15px;
+  color: black;
+
+}
+.Form_class{
+    margin-top: 20px;
+ font-size: 30px;
+}
+.input_class{
+    width: 330px;
+    height: 40px;
+    background-color: rgb(234, 238, 240);
+    border: none;
+    font-size: 30px;
+}
+.input_class2{
+    width: 330px;
+    height: 50px;
+    background-color: rgb(232, 234, 236);
+    border: none;
+    font-size: 30px;
+}
+.container_step_two{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: white;
+   margin-top: 10px;
+   display: inline-block;
+}
+.input_class3{
+    border: none;
+    height: 30px;
+    width: 330px;
+    background-color: rgb(234, 238, 239);
+    border: none;
+    font-size: 15px;
+    color: rgb(146, 138, 138);
+}
+
+.span{
+   margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 20px;
+  
+    
+}
+.footer{
+    background-color: green;
+    border: none;
+    width: 330px;
+    height: 50px;
+    color: white;
+  margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+  
+}
+form p{
+    font-size: 15px;
+    margin-top: 10px;
+  
+}
+.labl{
+    font-size: 15px ;
+}
+
+
+
+@media(max-width: 1068px){
+    .container{
+  flex-direction: column;
+    }
+} 
